@@ -1,0 +1,341 @@
+\documentclass{beamer}
+\mode<presentation> {
+%\usetheme{Madrid}
+%\usetheme{default}
+\usepackage{color}
+\definecolor{bottomcolour}{rgb}{0.21,0.11,0.21}
+\definecolor{middlecolour}{rgb}{0.21,0.11,0.21}
+\setbeamercolor{structure}{fg=white}
+\setbeamertemplate{frametitle}[default]%[center]
+\setbeamercolor{normal text}{bg=black, fg=white}
+\setbeamertemplate{background canvas}[vertical shading]
+[bottom=bottomcolour, middle=middlecolour, top=black]
+\setbeamertemplate{items}[circle]
+\setbeamertemplate{navigation symbols}{} %no nav symbols
+\setbeamercolor{block title}{use=structure,fg=white,bg=structure.fg!50!red!50!blue!100!green}
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!5!white!10!bg,fg=white}
+\setbeamertemplate{navigation symbols}{}
+}
+\usepackage{graphicx} 
+\usepackage{booktabs} 
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}  
+\usepackage{geometry}     
+\usepackage[francais]{babel} 
+\usepackage{eurosym}
+\usepackage{verbatim}
+\usepackage{ragged2e}
+\justifying
+\input{cc_beamer}
+\title[Café vie privée - Différents élements de réflexions]{Café vie privée \\~\\Différents éléments de réflexions} 
+\author{Genma}
+\begin{document}
+%% Titlepage
+\begin{frame}
+	\titlepage
+	\vfill
+	\begin{center}
+		\CcGroupByNcSa{0.83}{0.95ex}\\[2.5ex]
+		{\tiny\CcNote{\CcLongnameByNcSa}}
+		\vspace*{-2.5ex}
+	\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Appel aux dons}}
+\begin{center}
+\includegraphics[scale=0.4]{./images/bitcoin.png}
+\end{center}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Appel aux dons}
+\begin{block}{Rappel}
+Si c'est gratuit, c'est vous le produit...
+\end{block}
+\begin{block}{Nécessité de faire une communication de crise}
+La Quadrature fin décembre, GPG début février...
+\end{block}
+\begin{block}{La boîte à dons}
+Les dons seront reversés à des associations tel que la Quadrature, NosOignons...
+\end{block}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Le format}}
+\Huge{\centerline{Café vie privée}}
+\begin{center}
+\includegraphics[scale=0.4]{./images/LogoCafeViePrivee.jpg}
+\end{center}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{La vie privée}
+La vie privée, cela va au-delà de l'usage de logiciels
+\begin{itemize}
+\justifying{
+\item Il faut comprendre les enjeux autour du monde dans lequel on est et vers lequel on va. 
+\item La censure amène au contrôle de ce que l'on dit, pense, et c'est là une privation de liberté...
+\item L'usage de l'ordinateur, des réseaux, n'est qu'une partie de la problématique...
+}
+\end{itemize}
+Nous vous proposons donc quelques éléments de réflexions, avant de nous lancer dans des ateliers.
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{La différence entre la vie privée et la sécurité en une image}
+\begin{center}
+\includegraphics[scale=0.4]{./images/Security_Privacy.jpg}
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{La censure d'Internet}}
+\Huge{\centerline{en France}}
+\begin{center}
+\includegraphics[scale=0.4]{./images/censure.png}
+\end{center}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{PirateBay}
+\begin{block}{Filtrage par DNS}
+\justifying{
+Le Tribunal de Grande Instance de Paris a ordonné le 4 Décembre 2014 aux principaux fournisseurs d'accès internet français (Orange, Bouygues, Free et SFR) d'effectuer un blocage DNS du site The pirate Bay ainsi que de ses miroirs.
+}
+\end{block}
+
+\begin{center}
+\includegraphics[scale=0.2]{./images/the-pirate-bay.jpg}
+\end{center}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le blocage administratif}
+\begin{block}{Des lois sont votées}
+\begin{itemize}
+\justifying{
+\item  Un décret instaurant le blocage administratif des sites Internet soit pédopornographiques, soit faisant l’apologie ou provocant au terrorisme a été voté.
+\item Il s'agit de bloquer administrativement des sites, \textbf{ donc sans intervention préalable d’un juge}.
+}
+\end{itemize}
+\end{block}
+\justifying{
+Le gouvernement n’a pas jugé utile, pas plus que la majorité ou l’opposition parlementaire, de faire examiner par le Conseil constitutionnel des lois extrêmement sensibles pour les libertés... }
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Et demain?}
+\begin{block}{Quelques éléments sur lesquels il faut réfléchir...}
+Aujourd'hui, c'est la pédopornographie, le terrorisme... Et demain?
+\begin{itemize}
+\justifying{
+\item Demain, une censure de la pornographie, du moins de certaines catégories (SM ou autre)?
+\item Quid des sites qui parlent de l'anonymat, de tor etc.
+}
+\end{itemize}
+\end{block}
+\begin{block}{Aura-t-on le droit à un Internet "à la Française" sur le modèle Chinois?}
+\justifying{
+Internet, une zone de non droit, un farwest? On fait donc des lois spécifiques alors que les lois du monde réel s'appliqent déjà : incitation à la haine raciale, diffamation etc.. }
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Extrait d'une tribune de Jérémie Zimmermann}
+\justifying{
+Lorsque David Cameron pose la question rhétorique : « Souhaitons-nous autoriser des moyens de communication inter-personnelles que nous (le gouvernement) ne pouvons pas lire ? »,
+\\~\\
+ la réponse collective doit être « Oui, absolument, et les gouvernements doivent protéger ce droit ! ».
+\\~\\
+ La possibilité d'écrire et de communiquer sans être surveillé est une condition essentielle pour la liberté d'expression et la démocratie.
+\\~\\
+ Les communications privées sécurisées sont l'un des rares outils dont disposent les citoyens du monde entier pour s'organiser contre l'oppression et la tyrannie.
+}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{La solution? Soutenir La Quadratue du Net}
+\begin{center}
+\includegraphics[scale=1]{./images/logo.png}
+\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Des fuites de données personnelles}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le sexe par exemple. C’est perso ou pas ?}
+
+\begin{block}{Billet Tout à cacher par Kiteoa \url{http://reflets.info/}}
+\begin{itemize}
+\justifying{
+\item En 2012, les identifiants et les mots de passe d’utilisateurs de Youporn ont été diffusés sur Pastebin...
+}
+\end{itemize}
+\end{block}
+\begin{center}
+\includegraphics[scale=1]{./images/youporn.png}
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le sexe par exemple. C’est perso ou pas ?}
+
+\begin{block}{Billet Tout à cacher par Kiteoa \url{http://reflets.info/}}
+\begin{itemize}
+\justifying{
+\item Une boutique en ligne de type sexshop s'est fait piratée... Chacun a le droit de garder pour lui le fait qu’il achète (ou pas) des surtout si « chacun » a utilisé son mail professionnel pour passer commande…}
+\end{itemize}
+\end{block}
+\begin{center}
+\includegraphics[scale=1]{./images/lesexshopquivamal.png}
+\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{La NSA et l'actualité}}
+\begin{center}
+\includegraphics[scale=0.3]{./images/nsa.png}
+\end{center}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{GrayFish 1/2}
+\begin{block}{Un trojan dissimulé dans les disques durs révélé par Kaspersky}
+\begin{itemize}
+\justifying{
+\item Kaspersky a documenté sa découverte d'un nouveau logiciel malveillant, baptisé GrayFish. 
+\item Il est dissimulé très profondément dans les disques durs vendus par les principaux industriels du marché, à savoir IBM, Maxtor, Micro, Samsung, Seagate, Toshiba et Western Digital.
+\item Très complexe, celui-ci ferait partie d'un catalogue de programmes mis au point par le "Groupe Équation", qui serait lié à la NSA. C'est ce même groupe qui aurait mis au point Stuxnet et Flame.
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{GrayFish 2/2}
+\begin{block}{Un trojan dissimulé dans les disques durs révélé par Kaspersky}
+\begin{itemize}
+\justifying{
+\item Les capacités de GrayFish sont impressionnantes : par exemple, le logiciel peut se placer dans le firmware du disque dur et survit aux processus de formatage et de réinstallation du système d'exploitation. 
+\item Il peut également créer une zone cachée dans le disque dur pour y placer des documents intéressants, trouvés sur le reste du périphérique, en vue de les exfiltrer en dehors du PC, via Internet.
+}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Cartes SIM piratées}
+\begin{block}{Gemalto France ciblé par la NSA et le GCHQ}
+\begin{itemize}
+\justifying{
+\item La NSA et le GCHQ ont dérobé des millions de clés de chiffrement intégrées aux cartes SIM, pour pouvoir écouter en clair les communications mobiles en principe sécurisées.
+\item Les clés ont été piratées en s'attaquant au fabricant de cartes SIM Gemalto, et en particulier à ses bureaux en France.
+}
+\end{itemize}
+\justifying{
+Outre les cartes SIM de téléphones, Gemalto propose aussi de nombreux services de sécurisation de données, dont celles des cartes de paiement, des passeports biométriques, des données médicales, ou des cartes d'accès à des lieux protégés. }
+\end{block}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Les objets connectés :}}
+\Huge{\centerline{Danger}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Les télés Samsung}
+\begin{block}{Samsung s'invite dans votre salon}
+\begin{itemize}
+\justifying{
+\item Samsung s'amuse à collecter à partir des téléviseurs qui pratiquent la reconnaissance vocale, les phrases que vous dites à "des fins statistiques et d'amélioration du système".
+\item Plusieurs possesseurs de télévisions à avoir remarqué ces derniers jours que Samsung insérait des spots de pub durant le visionnage de leurs films.}
+\end{itemize}
+\end{block}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Une assurance qui s'adapte à votre façon de conduire}
+\begin{block}{Conducteur connecté : « L'assurance auto basée sur le comportement arrive début 2015 »}
+\justifying{
+Couramment utilisé ailleurs, ce nouveau produit fera varier chaque mois la prime des assurés français. Une carte SIM enverra en temps réel les données d’allure de freinage et d’accélération pour analyse. Un rabais de 30\%  est en vue pour les conducteurs vertueux}
+\end{block}
+Source \url{http://www.zdnet.fr/actualites/conducteur-connecte-l-assurance-auto-basee-sur-le-comportement-arrive-debut-2015-39810971.htm}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Les objets connectés : maison en danger}
+\begin{block}{La Domotique envahit nos vies}
+Les produits de sécurité vendus pour sécuriser sa maison, la domotique...
+\begin{itemize}
+\justifying{
+\item Pas de contrôle par l'utilisateur mais par une société extérieure
+\item Pas ou peu de chiffrement, de sécurité réelle
+\item Collecte des données personnelles
+\item Le code source n'est pas libre}
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{La fondation Mozilla bloque}}
+\Huge{\centerline{les extensions non signées}}
+\Huge{\centerline{dans Firefox}}
+\begin{center}
+\includegraphics[scale=0.3]{./images/firefox.png}
+\end{center}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{La fondation Mozilla bloque les extensions non signées dans Firefox 1/3}
+\begin{block}{Le problème à l'origine}
+\begin{itemize}
+\item La majorité des utilisateurs d’un navigateur en général ne sont pas des experts en informatique.
+\item Comme les programmes, les extensions peuvent contenir des fonctions malveillantes.
+\item les navigateurs du grand public contiennent des extensions non sollicitées et virales. 
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{La fondation Mozilla bloque les extensions non signées dans Firefox 2/3}
+\begin{block}{Les bémols/points à surveiller}
+\begin{itemize}
+\item  Il sera toujours possible d'utiliser des extensions non signées dans les nightly builds
+\item Mozilla choisira ce qu’on a le droit d’installer... ou non.
+\item Pour les mises à jour de failles de sécurité, Mozilla devra valider de nouveau l'extension (délai plus long).
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{La fondation Mozilla bloque les extensions non signées dans Firefox 3/3}
+\justifying{
+Citation de Cyrille Borne : On peut utiliser l'intégralité des outils Mozilla, c'est le cas pour moi au travers de mon téléphone, mon navigateur, et mon client mail c'est à dire que Mozilla peut accéder à des données sensibles, pourquoi la fondation qui est assez bonne pour moi jusqu'à maintenant ne prendrait pas les bonnes décisions dans les extensions proposées ? }
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Faire de la veille?}}
+\Huge{\centerline{http://genma.free.fr/shaarli/}}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\Huge{\centerline{Merci de votre attention.}}
+\Huge{\centerline{Place aux questions. Débattons...}}
+\Huge{\centerline{Et mise en place des ateliers.}}
+\end{frame}
+\end{document}
